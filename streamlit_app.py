@@ -1,8 +1,8 @@
 import streamlit as st
 from transformers import pipeline
 
-from huggingface_hub import HfApi
-from huggingface_hub import ModelFilter
+from huggingface_hub import HfApi, ModelFilter
+from huggingface_hub import ModelFilterpyth
 
 st.set_page_config(page_title="Huggingface Course", page_icon="🤗")
 
